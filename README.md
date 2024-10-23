@@ -1,2 +1,1 @@
-# siber
-Makine Çözümleri
+Makine Çözümleri açıklamalarıyla ve outputlar ile verilmiştir.
