@@ -1,1 +1,1 @@
-Makine Çözümleri açıklamalarıyla ve outputlar ile verilmiştir.
+Machine Solutions are given with explanations and outputs.
